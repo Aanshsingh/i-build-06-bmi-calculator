@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7-BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="Title"><span class="tone">Smart BMI</span> <span class="ttwo"> Calculator</span></div>
+            <div class="line"></div>
+              <div class="Height">
+                <div class="label">Height</div>
+                <div class="input">
+                    <input type="number" id="height" value="170">
+                    <span class="unit">cm</span>
+                </div>
+            </div>
+ 
+            <div class="Weight">
+                <div class="label">Weight</div>
+                <div class="input">
+                    <input type="number" id="weight" value="65">
+                    <span class="unit">kg</span>
+                </div>
+            </div>
+               <div class="status">
+                <h1>Your BMI: <span id="result">--</span> <span id="category"></span></h1>
+            </div>
+             <div class="button" id="calcBtn"><h1>TRY NOW</h1></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
